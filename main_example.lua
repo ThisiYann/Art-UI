@@ -15,7 +15,7 @@ do
     if ok then
         ArtUI = result
     else 
-        ArtUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/Footagesus/ArtUI/main/dist/main.lua"))()
+        ArtUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/ThisiYann/ArtUI/main/dist/main.lua"))()
     end
 end
 
@@ -64,7 +64,7 @@ end
 -- */  Window  /* --
 local Window = ArtUI:CreateWindow({
     Title = ".ftgs hub  |  ArtUI Example",
-    --Author = "by .ftgs • Footagesus",
+    --Author = "by .ftgs • ThisiYann",
     Folder = "ftgshub",
     Icon = "solar:folder-2-bold-duotone",
     --IconSize = 22*2,
@@ -324,7 +324,7 @@ do
     
     AboutSection:Section({
         Title = [[ArtUI is a stylish, open-source UI (User Interface) library specifically designed for Roblox Script Hubs.
-Developed by Footagesus (.ftgs, Footages).
+Developed by ThisiYann (.ftgs, Footages).
 It aims to provide developers with a modern, customizable, and easy-to-use toolkit for creating visually appealing interfaces within Roblox.
 The project is primarily written in Lua (Luau), the scripting language used in Roblox.]],
         TextSize = 18,
@@ -909,7 +909,7 @@ do -- config elements
         Border = true,
     })
     
-    -- All elements are taken from the official documentation: https://footagesus.github.io/ArtUI-Docs/docs
+    -- All elements are taken from the official documentation: https://ThisiYann.github.io/ArtUI-Docs/docs
     
     -- Saving elements to the config using `Flag`
     
